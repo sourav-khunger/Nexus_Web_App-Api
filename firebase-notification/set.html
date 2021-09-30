@@ -1,0 +1,77 @@
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-messaging.js"></script>
+
+<script>
+ const firebaseConfig = {
+  apiKey: "AIzaSyCnK1DLIa5tvjFJWimpvLexSkMB3ZNEmRI",
+  authDomain: "nexus-b8e2b.firebaseapp.com",
+  databaseURL: "https://nexus-b8e2b-default-rtdb.firebaseio.com",
+  projectId: "nexus-b8e2b",
+  storageBucket: "nexus-b8e2b.appspot.com",
+  messagingSenderId: "455683395406",
+  appId: "1:455683395406:web:a6ba356fa8c7dbf745181f",
+  measurementId: "G-V75VSBHJ68"
+};
+
+    firebase.initializeApp(firebaseConfig);
+    const messaging=firebase.messaging();
+
+    function PartTime() {
+        messaging
+            .requestPermission()
+            .then(function () {
+                console.log("Notification Permission");
+                return messaging.getToken();
+            })
+            .then(function (token) {
+                console.log("Token : "+token);
+                localStorage.setItem('pushtoken',token);
+            })
+            .catch(function (reason) {
+                console.log(reason);
+        });
+    }
+    messaging.onMessage(function (payload) {
+        console.log(payload);
+        const notificationOption={
+            body:payload.notification.body,
+            icon:payload.data.sender_image
+        };
+        
+        if(payload.data.isCalling=='true')
+        {
+            localStorage.setItem('meeting_id',payload.data.meeting_id);
+            alert(localStorage.getItem('meeting_id'));
+            CallPopup(payload.data.sender_id);
+        }
+        
+        else if(payload.data.isCancle=='true')
+        
+        {
+             hideCallPopup(payload.data.sender_id);
+        }
+        
+        if(Notification.permission==="granted"){
+            var notification=new Notification(payload.notification.title,notificationOption);
+
+            notification.onclick=function (ev) {
+                ev.preventDefault();
+                window.open(payload.notification.click_action,'_blank');
+                notification.close();
+            }
+        }
+
+    });
+    messaging.onTokenRefresh(function () {
+        messaging.getToken()
+            .then(function (newtoken) {
+                console.log("New Token : "+ newtoken);
+            })
+            .catch(function (reason) {
+                console.log(reason);
+            })
+    })
+
+PartTime();   
+    
+</script>

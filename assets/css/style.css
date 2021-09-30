@@ -1,0 +1,2500 @@
+/* Chat Box Css */
+
+div#chat-box-message .chat-body {
+    width: 100%;
+    padding: 20px;
+}
+
+div#chat-box-message .chat-header {
+    padding: 20px;
+}
+
+.incoming-message p {
+    background: #EEEEEE;
+    border-radius: 16px 16px 16px 0px;
+    padding: 13px;
+    font-family: YuGothic;
+    font-style: normal;
+    font-size: 12px;
+}
+
+span.time {
+    margin: 0px 2px;
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #666666;
+}
+
+.outgoing-message p {
+    background: #666666;
+    border-radius: 16px 16px 0px 16px;
+    padding: 13px;
+    color: #fff;
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.incoming-message {
+    margin: 10px 0px;
+}
+
+.incoming-message {
+    display: flex;
+    align-items: flex-end;
+}
+
+.outgoing-message {
+    display: flex;
+    align-items: flex-end;
+    margin: 10px 0px;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.chat-header img.user-avtar {
+    width: 40px;
+    height: 40px;
+}
+
+
+.user-details-chat {
+    display: flex;
+    float: left;
+}
+.user-functions {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.chat-header {
+    max-height: 40px;
+}
+.user-functions {
+    float: right;
+}
+
+span.online-chat {
+    background: #EEEEEE;
+    position: relative;
+    padding: 0px 6px;
+    font-size: 10px;
+    top: -9px;
+    border-radius: 19px;
+    color: #666666;
+    left: 10%;
+}
+
+.user-details-chat h6.username {margin-left: 8px;}
+
+img.calling-icon {
+    margin-right: 16px;
+}
+
+
+ ::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+ ::-webkit-scrollbar-track {
+  border-radius: 20px;
+}
+ 
+/* Handle */
+ ::-webkit-scrollbar-thumb {
+  background-color: #cccccc; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+/* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+     background-color:#999999;
+ }
+
+div#chat-list {
+    width: 360px;
+    max-height: 420px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    right: 6%;
+    overflow-y:scroll;
+    position: absolute;
+    z-index: 999;
+    top: 22%;
+    min-height: 420px;
+}
+.chatbox-hide{
+    display:none;
+}
+
+div#chat-list {
+    padding: 20px 20px;
+}
+div#chat-box-message{
+    width: 360px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    right: 6%;
+    position: absolute;
+    z-index: 999;
+    top: 22%;
+    min-height: 420px; 
+}
+div#chat-box-message .chat-body{
+    max-height: 300px;
+    overflow-y:scroll;
+    min-height: 300px;
+}
+.chat-footer {
+    background: #EEEEEE;
+    min-height: 14px;
+    display:flex;
+    padding:20px;
+}
+textarea.message_send{
+    min-height: 30px;
+    width: 90%;
+    border: none;
+    border-radius: 16px;
+    padding: 2px 5px;
+    resize: none;
+}
+
+img.user-avtar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+h6.username {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+/* identical to box height */
+    align-items: center;
+    color: #000000;
+}
+
+h6.company-details {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+/* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+p.last-message {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.user-details {
+    width: 100%;
+}
+.chat-user {
+    display: flex;
+}
+span.user-online-chat {
+    background: #EEEEEE;
+    position: relative;
+    padding: 0px 6px;
+    font-size: 10px;
+    top: -9px;
+    border-radius: 19px;
+    color: #666666;
+    left: 5%;
+}
+
+.user-image {
+    float: left;
+    margin-right:15px;
+    max-width:20%;
+}
+
+.user-details h6,p {
+    margin: 0px;
+}
+
+
+
+/* Ends here */
+
+/* Home Page Css */
+.modal-backdrop.fade {
+    opacity: 1;
+    background: #000000d4;
+}
+
+#Calling img.Calling-User {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+#Calling h6.username {
+    color: #fff;
+    font-weight: bold;
+    font-size: 19px;
+}
+.top-content.text-center {
+    color: #fff;
+    margin-top: 40px;
+}
+
+.top-content.text-center .title {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.top-content.text-center  p.sub-title {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+}
+#Calling .modal-content {
+    background: #000000ab;
+}
+
+#Calling span.sub-text {
+    color: #adb5bdb8;
+}
+img.call-icon {
+    height: 60px;
+}
+
+img.profile-image {
+    object-fit: cover;
+}
+.light-box , .dark-box {
+    display: contents;
+}
+body {
+    padding: 0px !important;
+}
+img.background-image {
+    object-fit: cover;
+}
+.popup-background-image a {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px 15px;
+    position: relative;
+    top: -221px;
+    left: 92%;
+    justify-content: center;
+    width: 3%;
+    display: flex;
+    border-radius: 18px;
+}
+h6.required-resources {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+/* identical to box height */
+    align-items: center;
+    color: #000000;
+}
+
+h6.title {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+/* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+h6.required-title {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+/* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.main-title {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+/* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.modal-header, .modal-footer {
+    border: none!important;
+}
+.modal-body.popup-skills {
+    position: relative;
+    top: -35px;
+}
+p.content {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+/* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+p.title {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+/* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+
+.btn.focus, .btn:focus {
+    box-shadow: none !important;
+}
+
+
+div.scrollmenu ::-webkit-scrollbar-thumb{
+  background-color: #999999 !important;    /* color of the scroll thumb */
+  border-radius: 20px !important;       /* roundness of the scroll thumb */
+}
+div.scrollmenu ::-webkit-scrollbar-track {
+   background: #999999 !important;        
+}
+div#ProfileModal .modal-footer{
+    display:block !important;
+    position:relative;
+    top:-17px;
+    text-align:center !important;
+    padding:0px !important;
+    
+}
+div#ProfileModal  .btn-danger {
+    color: #fff;
+    background-color: transparent;
+    position: absolute;
+    border-color: transparent;
+    bottom: -37px;
+    left: 45%;
+    text-decoration: underline;
+}
+div#ProfileModal button.btn.on {
+    width: 240px;
+    height: 48px;
+    background: #000000;
+    border-radius: 40px;
+    color: #fff;
+}
+
+div#ProfileModal button.btn.hide-user {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+}
+div#ProfileModal .modal-content {
+    min-width: 560px;
+    height: 100%;
+    min-height: 400px;
+}
+div#ProfileModal .modal-header {
+    padding: 0px !important;
+    display:block !important;
+}
+
+div#ProfileModal .modal-content{
+    border-radius:10px !important;
+}
+div#ProfileModal .popup-background-image {
+    border-radius: 12px;
+}
+
+div#ProfileModal img.background-image {
+    border-radius: 7px 7px 0px 0px;
+    width: 560px;
+    height: 240px;
+}
+
+div#ProfileModal  .header-content {
+    position: relative;
+    top: -36px;
+    text-align: center;
+}
+
+div#ProfileModal img.profile-image {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ffff;
+    border-radius: 50px;
+    position: relative;
+    top: -65px;
+    left: 43%;
+}
+div#IncomingCallModal .modal-content {
+    margin-left: -27px;
+}
+div#zoom_timer {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 14px 0px;
+    float:right !important;
+}
+
+div#IncomingCallModal .modal-footer{
+    display:block !important;
+    position:relative;
+    top:5px;
+    text-align:center !important;
+    padding:0px !important;
+    
+}
+div#IncomingCallModal .modal-body.popup-skills {
+    position: relative;
+    top: -35px;
+    text-align:left;
+}
+div#IncomingCallModal  .btn-danger {
+    color: #fff;
+    background-color: transparent;
+    position: absolute;
+    border-color: transparent;
+    bottom: -37px;
+    left: 45%;
+    text-decoration: underline;
+}
+div#IncomingCallModal button.btn.on {
+    width: 240px;
+    height: 48px;
+    background: #000000;
+    border-radius: 40px;
+    color: #fff;
+}
+
+div#IncomingCallModal button.btn.hide-user {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+}
+div#IncomingCallModal .modal-content {
+    min-width: 560px;
+    height: 100%;
+    min-height: 400px;
+}
+div#IncomingCallModal .modal-header {
+    padding: 0px !important;
+    display:block !important;
+}
+
+div#IncomingCallModal .modal-content{
+    border-radius:10px !important;
+}
+div#IncomingCallModal .popup-background-image {
+    border-radius: 12px;
+}
+
+div#IncomingCallModal img.background-image {
+    border-radius: 7px 7px 0px 0px;
+    width: 560px;
+    height: 240px;
+}
+
+div#IncomingCallModal  .header-content {
+    position: relative;
+    top: -36px;
+    text-align: center;
+}
+
+div#IncomingCallModal img.profile-image {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ffff;
+    border-radius: 50px;
+    position: relative;
+    top: -69px;
+    left: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+a.menu.filter-button:hover {
+    color: #ffff !important;
+}
+
+img#mini_user_image {
+    object-fit: cover;
+}
+div.scrollmenu ::-webkit-scrollbar {
+  width: 8px !important; 
+}
+
+.user-card.simple {
+    border: 2px solid #EEEEEE;
+}
+.cardheader a {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px 15px;
+    position: relative;
+    top: 4%;
+    left: 92%;
+    justify-content: center;
+    width: 3%;
+    display: flex;
+    border-radius: 18px;
+}
+#myDIV{
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+.sub-children-skills span {
+font-family: YuGothic;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+align-items: center;
+color: #666666;
+ background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 10px 70px 0px 0px;
+    padding: 5px 10px;
+}
+h6.required-sub-title {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+/* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+p.strength-content {
+    margin: 0px;
+    font-weight: bold;
+}
+.light-box span{
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 1px 4px;
+    margin: 2px;
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    align-items: center;
+    display:inline-block !important;
+    color: #666666;
+}
+
+.parent-skills-title{
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    align-items: center;
+    color: #000000;
+}
+.dark-box span{
+    font-family: YuGothic;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 18px;
+align-items: center;
+color: #000000;
+margin: 2px;
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 4px;
+padding: 1px 4px;
+display:inline-block !important;
+}
+.children-skills span {
+font-family: YuGothic;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 18px;
+align-items: center;
+color: #000000;
+margin: 0px 0px 0px 0px;
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 4px;
+   padding: 5px 10px;
+}
+
+.children-skills {
+    display: inline-block !important;
+    margin:10px 0px !important;
+}
+.sub-children-skills{
+    display: inline-block !important;
+    margin:10px 0px !important;
+}
+
+.card-skills h6.parent-skills {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    color: #000000;
+}
+.card-skills {
+    top: -20px;
+    position: relative;
+    text-align: left;
+    padding: 0px 20px;
+}
+h6.activity-area {
+font-family: YuGothic;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+align-items: center;
+text-align: center;
+color: #000000;
+margin:5px;
+}
+h6.work-status {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    align-items: center;
+    color: #000000;
+}
+img.avtar-profile {
+    border-radius: 100px;
+    top: -50px;
+    left: 30px;
+    width: 80px;
+    object-fit:cover;
+    height: 80px;
+    position:relative;
+}
+button.btn.on.user-card-button {
+    background: #000000;
+    border-radius: 40px;
+    color: #ffff;
+    width: 240px;
+    height: 48px;
+    margin: 10px 0px;
+}
+.see-more {
+    padding-top: 30px;
+    color: black;
+}
+
+a.underline_link {
+font-family: YuGothic;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+text-decoration: underline !important;
+color: #000000;
+}
+h4.name {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+.sub-header-section {
+    position: relative;
+    top: -40px;
+    text-align: center !important;
+}
+img.online {
+    margin: 0px 2px;
+    top: -2px;
+    position: relative;
+}
+span.user-online {
+    background: #EEEEEE;
+    left: -40px;
+    position: relative;
+    top: -14px;
+    padding: 0px 6px;
+    font-size: 10px;
+    border-radius: 19px;
+    color: #666666;
+}
+img.cover {
+    width: 280px;
+    height: 120px;
+    border-radius: 10px 10px 0px 0px;
+}
+.row.card-row {
+    margin-top: 50px;
+}
+.user-card.simple {
+    border-radius: 10px;
+    background: #fff;
+    min-height: 481px;
+    width: 280px;
+}
+
+.container-fluid.talklater {
+    padding: 50px 80px;
+    background: #fff;
+}
+.container-fluid.talklater img.avtar-profile{
+    left:0px !important;
+}
+section#home-page {
+    background: #F7F7F7;
+    text-align: center;
+}
+.container-fluid.realtime {
+    padding: 50px 80px;
+}
+.custom-switch {
+    padding-left: 3rem !important;
+}
+
+/* home page Css ends here */
+/* recess mode css */
+p#on-form {
+    color: red;
+    margin-top: 20px;
+}
+.outer {
+  position: relative;
+  background-color: red;
+}
+ 
+.outer > a {
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+ 
+.demoSkills {
+  position: relative;
+  pointer-events: none;
+  z-index: 1;
+}
+ 
+.inner a {
+  pointer-events: all;
+}
+
+
+a.hide{
+    display:none;
+}
+
+a.x-box {
+    border-radius: 25px;
+    background: silver;
+    padding: 5px 3px 0px 3px;
+    line-height: 0px;
+    height: 14px;
+    position: relative;
+    color: black !important;
+    top: 4px !important;
+    right: -3px !important;
+    width: 14px;
+}
+
+button.btn.cancle {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+/* identical to box height */
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.modal-box-my .modal-content {
+    padding: 50px;
+}
+
+.modal-box-my .modal-content div {
+    border: none !important;
+}
+
+.modal-box-my .modal-content> div.modal-header {
+    text-align: center !important;
+    display: block !important;
+}
+
+.modal-box-my .modal-footer {
+    display: block;
+    text-align: center;
+}
+
+.modal-box-my button.btn.main-on {
+    background: black;
+    color: #ffff;
+    width: 240px;
+    height: 48px;
+    border-radius: 40px;
+}
+
+.modal-box-my .modal-body>p {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+}
+
+
+
+
+
+/* profile page css */
+
+
+li.inactive {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 28px;
+    color: #666666;
+}
+.row.cstm {
+    padding: 0px 15px;
+}
+
+.tab-pane input, .tab-pane textarea {
+    background: #F7F7F7;
+    border: none;
+}
+
+textarea#InputBriefJobHistory {}
+
+.form-control:disabled, .form-control[readonly] {
+    background: #f7f7f7;
+}
+
+label.annony {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+}
+label.custom-control-label {
+    float: right !important;
+}
+.custom-switch .custom-control-label::after {
+    background-color: #fff !important;
+}
+.custom-switch .custom-control-label::before {
+    background-color: #CCCCCC;
+}
+.custom-control-input:checked~.custom-control-label::before {
+    background-color: #FF3A99;
+    border-color: #FF3A99;
+}
+
+
+
+li.nav-item.pu a {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: black;
+    text-decoration: none;
+}
+
+li.nav-item.pu a.active {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 28px;
+    color: black;
+    text-decoration: none;
+}
+.custom-control.custom-switch {
+    padding: 0px;
+}
+
+span.pu_heading {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+}
+
+img.social-icon {
+    height: auto !important;
+}
+
+.custom-input-box.d-flex input {
+    background: #f7f7f7;
+    border: none;
+}
+
+.custom-input-box.d-flex {
+    padding: 5px 10px;
+    background: #F7F7F7;
+    height: 45px;
+    margin:5px 0px;
+}
+
+.custom-input-box.d-flex input:focus {
+    box-shadow: none !important;
+    margin: auto;
+}
+
+.custom-input-box.d-flex img {
+    margin: auto;
+}
+
+
+
+/* profile page css ends here */
+
+
+
+/*start scroll csss */
+
+.custom-checkbox {
+    background: #EEEEEE;
+    width: 16px;
+    height: 16px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.hide{
+    display:none;
+}
+.custom-checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right:10px;
+}
+
+.custom-checkbox img {
+    height: 10px;
+    width: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input.inline-checkbox {
+  width: 13px !important;
+  height: 13px !important;
+  padding: 0 !important;
+  margin:0 !important;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+  *overflow: hidden; 
+  margin-right:12px !important;  
+}
+div.flex-column {
+    height: 190px;
+}
+lable.withCheckbox {
+  display: flex;
+  text-indent: -15px;
+  font-family: YuGothic;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  color: #000000;
+}
+
+/* ends */
+
+.bgimage{
+   background-image: url('https://nexus.dev.doozycodsys.com/assets/images/bg.png');
+  background-color: #cccccc;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.exp4.col-md-4 {
+    width: 280px;
+    height: 481px;
+    margin: 0px 10px;
+    background-color: white;
+}
+
+
+.exp.col-md-12 {
+    height: 707px;
+     margin: 39px 0px;
+}
+
+span.exp {
+    margin: 34px 0px;
+}
+
+a.h3 {
+    float: right;
+    margin: 8px;
+    display: flex;
+}
+
+
+.exp.col-md-12{
+    background-color: #F7F7F7;
+}
+span.exp{
+    
+    text-align:center;
+}
+a.h3 {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    align-items: center;
+    color: #333333;
+    text-align: center;
+    text-decoration: none;
+}
+
+h2.h2 {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+    margin: 19px;
+}
+
+
+h3.h2 {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    margin: 19px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+a.head {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    color: #000000;
+    text-align: center;
+   
+    text-decoration:none;
+
+}
+
+
+div.scrollmenu {
+  background-color: #F7F7F7;
+  overflow: auto;
+  white-space: nowrap;
+  text-align:center;
+      margin-bottom: 25px;
+ }
+ 
+ 
+
+
+div.scrollmenu a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 4px 15px;
+  text-decoration: none;
+}
+
+div.scrollmenu a.active {
+  background-color: black;
+  color: white;
+  
+border-radius: 40px;
+}
+
+div.scrollmenu a:hover {
+  background-color: black;
+  color: white;
+  
+border-radius: 40px;
+}
+/*ends*/
+
+
+
+svg.svg {
+    background: #000000;
+    border-radius: 2px;
+}
+   
+
+ footer.bg-light.text-center.text-lg-start {
+    border-top-style: solid;
+    border-top-color: #EEEEEE;
+}
+ a.term {
+    text-decoration: none;
+    color: black;
+
+}
+a.privacy {
+    text-decoration: none;
+    color: black;
+    margin:28px;
+}
+a.SCT {
+    text-decoration: none;
+    color: black;
+       
+}
+
+a.contacts {
+    text-decoration: none;
+    color: black;
+}
+
+.terms {
+    text-align: left;
+}
+
+.contact {
+    text-align: left;
+}
+
+a.contacts {
+    margin: 29px;
+}
+
+.terms {
+    margin: 10px;
+}
+
+.contact {
+    margin: 10px;
+}
+
+ 
+ 
+ 
+ 
+
+ #pou input[type=checkbox] {
+        visibility: hidden;
+      }
+    #pou span.w3docs {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 2px;
+    width: 14px;
+    height: 14px;
+    color: black;
+    margin: 18px -32px;
+} 
+
+     #pou .w3docs {
+        position: absolute;
+        
+      }
+        #pou .main input:active ~ .w3docs {
+        background-color: white;
+      }
+      
+     #pou .main input:checked ~ .w3docs {
+        background-color: white;
+      }
+     #pou .w3docs:after {
+        content: "";
+        position: absolute;
+        display: none;
+      }
+       /* Display checkmark when checked */
+     #pou .main input:checked ~ .w3docs:after {
+        display: block;
+      }
+      #pou .main .w3docs:after {
+    left: 4px;
+    bottom: 3px;
+    width: 8px;
+    height: 16px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(
+45deg
+);
+    -ms-transform: rotate(45deg);
+    transform: rotate(
+45deg
+);
+}
+
+/*ending////*/
+
+h5#skill-section span {
+    color: #ffc107;
+    margin-left: 5px;
+    font-size: 22px;
+}
+.row.skill-box {
+    padding: 0px 50px;
+}
+.d-flex.flex-column.cstm.justify-content-center.align-items-center {
+    min-height: 200px;
+}
+a#skills:hover {
+    text-decoration: none;
+}
+
+input#InputSkills {
+    cursor: pointer;
+}
+/* popup */
+a:hover {
+    text-decoration: none !important;
+    cursor:pointer !important;
+}
+
+input.pointer {
+    cursor: pointer !important;
+}
+
+#pou .modal-title{
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    text-align: center;
+    
+}
+a.cursor:hover {
+    cursor: pointer;
+}
+
+#pou button.cancel.cbtn {
+    width: 100%;
+    max-width: 200px;
+    padding: 0px;
+    background: transparent;
+    border: none;
+    font-family: YuGothic;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+    margin: 10px;
+}
+#pou .modal-footer {
+   
+    display:block !important;
+    border:none !important;
+    text-align:center;
+}
+span.skill_name {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 14px;
+    line-height: 32px;
+
+    color: #000000;
+}
+
+ul.skills {
+    list-style: none;
+    padding-left: 20px;
+}
+#pou button.submitpop { 
+    width: 100%;
+    max-width: 200px;
+    height: 48px;
+    background: #000000;
+    border-radius: 40px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+      margin: 10px;
+}
+#pou .checkboxs {
+    margin: 5px 80px;
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+#pou .modal-header {
+    text-align: center;
+    display: block !important;
+    border:none !important;
+}
+
+#pou h3.heading {
+    position: absolute;
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+    
+    
+}
+
+#pou .modal-content{
+    padding: 35px 90px;
+     border:none !important;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+#pou .modal-dialog.modal-dialog-centered {
+    max-width: 750px;
+    height: 472px;
+}
+
+
+/* popup Ends Here */
+
+
+/* Registrartion Page Css */
+button.close.skills {
+    position: absolute;
+    right: -4%;
+    top: -6%;
+}
+
+#skill-section .modal-footer {
+    display: block;
+    text-align: center;
+}
+#skill-section button.btn.save-skills {
+    width: 240px;
+    height: 48px;
+    background: #999999;
+    border-radius: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#skill-section button.btn.cancle-skills {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#skill-section .modal-header {
+    text-align: center;
+    display: block;
+}
+#skill-section .modal-dialog.modal-dialog-centered {
+    max-width: 800px;
+}
+#industry-section .modal-footer {
+    display: block;
+    text-align: center;
+}
+#industry-section button.btn.save-skills {
+    width: 240px;
+    height: 48px;
+    background: #999999;
+    border-radius: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#industry-section button.btn.cancle-skills {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#industry-section .modal-header {
+    text-align: center;
+    display: block;
+}
+#industry-section .modal-dialog.modal-dialog-centered {
+    max-width: 800px;
+}
+
+#alliances-section .modal-footer {
+    display: block;
+    text-align: center;
+}
+#alliances-section button.btn.save-skills {
+    width: 240px;
+    height: 48px;
+    background: #999999;
+    border-radius: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#alliances-section button.btn.cancle-skills {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#alliances-section .modal-header {
+    text-align: center;
+    display: block;
+}
+#alliances-section .modal-dialog.modal-dialog-centered {
+    max-width: 800px;
+}
+
+#funding-section .modal-footer {
+    display: block;
+    text-align: center;
+}
+#funding-section button.btn.save-skills {
+    width: 240px;
+    height: 48px;
+    background: #999999;
+    border-radius: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#funding-section button.btn.cancle-skills {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#funding-section .modal-header {
+    text-align: center;
+    display: block;
+}
+
+#investment-section .modal-footer {
+    display: block;
+    text-align: center;
+}
+#investment-section button.btn.save-skills {
+    width: 240px;
+    height: 48px;
+    background: #999999;
+    border-radius: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#investment-section button.btn.cancle-skills {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#investment-section .modal-header {
+    text-align: center;
+    display: block;
+}
+
+ul.skill_ul {
+    padding: 0px;
+    list-style: none;
+    margin: 0px;
+}
+
+h2.email-title {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+div#account-recess>div {
+    padding: 25px 0px;
+}
+
+h2.title {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+p.email {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 10px;
+}
+
+div#email-address>div {
+    padding: 20px 0px;
+}
+
+li.skill_li {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+    line-height: 32px;
+}
+button.btn.btn-steps.on {
+    background: black;
+}
+.demoSkills {
+    display: inline-flex;
+    padding: 5px 10px;
+    background: black;
+    color: #fff;
+    margin: 5px;
+    font-size: 14px;
+    border-radius: 6px;
+}
+
+div#notifications .custom-control-input:checked~.custom-control-label::before {
+    background: #FF3A99 !important;
+    border: #FF3A99 !important;
+}
+
+
+h2.notification-title {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h2.push-title {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 36px;
+}
+
+div#notifications label {font-family: YuGothic;font-style: normal;font-weight: 100;font-size: 17px;line-height: 23px;}
+
+span.warning-mode {
+    color: red;
+    line-height: 9px;
+    font-size: 13px;
+}
+
+#notifications>div {
+    padding: 25px 0px;
+}
+
+h2.text-title {
+      font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 36px;
+}
+
+div#annonymous-mode ul {
+    list-style: none;
+    padding: 0px;
+}
+
+div#annonymous-mode {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+h2.annonymous-title {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.overflow-auto.p-3.mb-3.mb-md-0.mr-md-3.bg-light::-webkit-scrollbar-thumb{
+  background-color: #999999;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+}
+div.overflow-auto ::-webkit-scrollbar-track {
+   background: #999999;        
+}
+div.overflow-auto::-webkit-scrollbar {
+  width: 8px; 
+}
+
+
+.add-btn-div {
+    text-align: center;
+    padding: 20px;
+}
+h4.skill-head {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+div#investment-section .modal-header {
+    display: block !important;
+}
+
+
+h5#investment-section {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+h5#skill-section {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    align-items: center;
+}
+a#add_more {
+    color: black;
+    background: #EEEEEE;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 10px 50px !important; 
+}
+a#add_more:before {content: "+";margin-right: 10px;font-size: 20px;}
+
+h3.form-subtitle {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+}
+span.optional {
+    background: #999999;
+    color: #fff;
+    padding: 2px;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+input#update-profile-picture {
+    display: none;
+}
+.btn-next {text-align: center;}
+
+button.btn.btn-steps {
+    width: 240px;
+    height: 48px;
+    background: #999999;
+    color: #ffff;
+    border-radius: 40px;
+}
+
+.image-upload > input
+{
+    display: none;
+}
+
+.image-upload img
+{
+    width: 80px;
+    cursor: pointer;
+}
+
+footer.bg-light.text-center.text-lg-start {
+    margin-top: 50px;
+}
+
+input#profile-picture {
+    display: none;
+}
+.avatar a {
+    position: relative;
+    right: 33px;
+    top: 26px;
+    color: #fff !important;
+    padding: 1px 5px;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 10px;
+    border-radius: 10px;
+}
+.avatar-profile label {
+    cursor: pointer;
+}
+/* Header CSS */
+.top-bar{
+background: linear-gradient(269.84deg, #FF3A99 0%, #7D1D4B 37.5%, #000000 100%);
+    }
+button.social-login-button i {
+    position: relative;
+    left: -30px;
+    font-size: 18px;
+}
+.navbar{
+padding: 0px;
+    }
+h6.header-text {
+        font-family: YuGothic;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        /* identical to box height */
+        text-decoration-line: underline;
+        color: #FFFFFF;
+        margin:10px 0px;
+        }
+div.header .col.text-right {
+            text-align: -webkit-right;
+            padding: 50px 0px;
+        }
+div.header .col.text-right a {
+            padding: 10px;
+        }
+img.profile-icon{
+    border-radius:25px;
+}
+
+/* Profile Page CSS */
+
+
+.card {
+    padding-top: 20px;
+    margin: 10px 0 20px 0;
+    border-top-width: 0;
+    border-bottom-width: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card .card-heading {
+    padding: 0 20px;
+    margin: 0;
+}
+
+.card .card-heading.simple {
+    font-size: 20px;
+    font-weight: 300;
+    color: #777;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.card .card-heading.image img {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    margin-right: 15px;
+    vertical-align: top;
+    border: 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.card .card-heading.image .card-heading-header {
+    display: inline-block;
+    vertical-align: top;
+}
+.card.hovercard {
+    border: none;
+}
+
+.card .card-heading.image .card-heading-header h3 {
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+}
+
+.card .card-heading.image .card-heading-header span {
+    font-size: 12px;
+    color: #999999;
+}
+
+.card .card-body {
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.card .card-media {
+    padding: 0 20px;
+    margin: 0 -14px;
+}
+
+.card .card-media img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card .card-actions {
+    min-height: 30px;
+    padding: 0 20px 20px 20px;
+    margin: 20px 0 0 0;
+}
+
+.card .card-comments {
+    padding: 20px;
+    margin: 0;
+    background-color: #f8f8f8;
+}
+
+.card .card-comments .comments-collapse-toggle {
+    padding: 0;
+    margin: 0 20px 12px 20px;
+}
+
+.card .card-comments .comments-collapse-toggle a,
+.card .card-comments .comments-collapse-toggle span {
+    padding-right: 5px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #999;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card-comments .media-heading {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.card.people {
+    position: relative;
+    display: inline-block;
+    width: 170px;
+    height: 300px;
+    padding-top: 0;
+    margin-left: 20px;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.card.people:first-child {
+    margin-left: 0;
+}
+
+.card.people .card-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 170px;
+    height: 150px;
+    background-color: #ffffff;
+}
+
+.card.people .card-top.green {
+    background-color: #53a93f;
+}
+
+.card.people .card-top.blue {
+    background-color: #427fed;
+}
+
+.card.people .card-info {
+    position: absolute;
+    top: 150px;
+    display: inline-block;
+    width: 100%;
+    height: 101px;
+    overflow: hidden;
+    background: #ffffff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card.people .card-info .title {
+    display: block;
+    margin: 8px 14px 0 14px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #404040;
+}
+
+.card.people .card-info .desc {
+    display: block;
+    margin: 8px 14px 0 14px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 16px;
+    color: #737373;
+    text-overflow: ellipsis;
+}
+
+.card.people .card-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    line-height: 29px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card.hovercard .cardheader {
+    background-size: cover !important;
+    height: 375px;
+}
+
+.card.hovercard .avatar {
+    position: relative;
+    top: -50px;
+    margin-bottom: -50px;
+}
+
+.card.hovercard .avatar img {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    object-fit:cover !important;
+    /*border: 5px solid rgba(255,255,255,0.5);*/
+}
+
+.card.hovercard .info {
+    padding: 4px 8px 10px;
+}
+
+.card.hovercard .info .title {
+    margin-bottom: 4px;
+    font-size: 24px;
+    line-height: 1;
+    color: #262626;
+    vertical-align: middle;
+}
+
+.card.hovercard .info .desc {
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 20px;
+    color: #737373;
+    text-overflow: ellipsis;
+}
+
+.card.hovercard .bottom {
+    padding: 0 20px;
+    margin-bottom: 17px;
+}
+
+
+.checkbox-teal [type="checkbox"]:checked+label:before {
+  border-color: transparent #009688 #009688 transparent;
+}
+/* Login Page Csss Starts Here */
+.signup-model{
+max-width:750px !important;
+max-height:472px !important; 
+padding: 50px 100px;
+background: #FFFFFF;
+border-radius: 10px;
+margin-top: 5%;
+}
+
+.login-form-card {
+height: 500px;
+width:880px;
+background: #FFFFFF;
+top:100px;
+border-radius: 10px;
+margin-top: 6%;
+}
+.logo-image {
+    justify-content: center;
+    align-items: center;
+    display: flex !important;
+}
+input#emailVerification {
+    width: 100%;
+    max-width: 383px;
+    margin: 0px auto;
+}
+img.login-logo {
+    height: 100px;
+    width: 150px;
+}
+.container.p-5.login-form-card {
+    padding: 50px 200px !important;
+}
+.heading-text
+{
+font-family: YuGothic;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+color:#000000;
+}
+.avatar-profile img {
+    border-radius: 100px;
+    height: 100px;
+    width:100px;
+    object-fit:cover;
+}
+.normal-text{
+font-family: YuGothic;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+text-align: center;
+color: #000000;
+}
+.normal-text a{
+    text-decoration:underline;
+    color:black;
+}
+button.social-login-button {
+    color: #ffff;
+    width:240px;
+    height:48px;
+    border-radius: 25px;
+    border:none;
+}
+button.signup{
+    height: 24px;
+width: 59px;
+left: 547px;
+top: 426px;
+border-radius: nullpx;
+
+}
+button.facebook {
+    background-color: #1877F2;
+}
+button.twitter{
+    background-color:#1DA1F2;
+}
+button.linkdin{
+    background-color:#0077B5;
+}
+button:focus {
+    outline: none;
+}
+button.verify{
+width: 240px;
+height: 48px;
+font-family: YuGothic;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+color: #FFFFFF;
+background: #999999;
+border-radius: 25px;
+}
+input#emailVerification {
+    background: #F7F7F7;
+    border: none;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgb(194 42 115 / 70%) !important;
+}
+
+button.btn.verify:hover {
+    background: #000000;
+    color: #ffff;
+}
+
+
+#msform {
+    text-align: center;
+    position: relative;
+    margin-top: 20px
+}
+
+#msform fieldset .form-card {
+    background: white;
+    border: 0 none;
+    border-radius: 0px;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    padding: 20px 40px 30px 40px;
+    box-sizing: border-box;
+    width: 94%;
+    margin: 0 3% 20px 3%;
+    position: relative
+}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+    position: relative
+}
+
+#msform fieldset:not(:first-of-type) {
+    display: none
+}
+
+#msform fieldset .form-card {
+    text-align: left;
+    color: #9E9E9E
+}
+
+#msform input, #msform textarea{
+    padding: 0px 8px 4px 8px;
+    border: none;
+    border-radius: 0px;
+    margin-bottom: 25px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    background: #F7F7F7;
+    font-size: 16px;
+    letter-spacing: 1px
+}
+select.activity {
+    padding: 0px 8px 4px 8px;
+    border: none;
+    border-radius: 0px;
+    margin-bottom: 25px;
+    height: 40px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    background: #F7F7F7;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+#msform input:focus, #msform textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    /* border: none; */
+    font-weight: bold;
+    border: 2px solid #ff3a999e;
+    outline-width: 0;
+}
+
+#msform .action-button {
+    width: 100px;
+    background: skyblue;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px skyblue
+}
+
+#msform .action-button-previous {
+    width: 100px;
+    background: #616161;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px
+}
+
+#msform .action-button-previous:hover,
+#msform .action-button-previous:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #616161
+}
+
+select.list-dt {
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    padding: 2px 5px 3px 5px;
+    margin: 2px
+}
+
+select.list-dt:focus {
+    border-bottom: 2px solid skyblue
+}
+
+.card {
+    z-index: 0;
+    border: none;
+    border-radius: 0.5rem;
+    position: relative
+}
+
+.fs-title {
+    font-size: 25px;
+    color: #2C3E50;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left
+}
+
+#progressbar {
+    margin-bottom: 30px;
+    justify-content: center;
+    display: flex;
+    padding: 0px;
+    overflow: hidden;
+    color: lightgrey
+}
+
+#progressbar .active {
+    color: #000000
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 12px;
+    width: 33%;
+    float: left;
+    position: relative
+}
+.card.profile-data {
+    padding: 50px 100px;
+}
+span.required {
+    background: #FF3A99;
+    color: #fff;
+    padding: 2px;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+.form-fields label {
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+}
+.form-fields.text-left {
+    margin-top: 50px;
+}
+#progressbar #account:before {
+    font-family: FontAwesome;
+    content: "\f00c"
+}
+
+#progressbar #personal:before {
+    font-family: FontAwesome;
+    content: "\f007"
+}
+
+#progressbar #payment:before {
+    font-family: FontAwesome;
+    content: "\f111";
+}
+
+#progressbar #confirm:before {
+    font-family: FontAwesome;
+    content: "\f00c"
+}
+
+#progressbar li:before {
+    width: 20px;
+    height: 20px;
+    display: block;
+    line-height: 15px;
+    font-size: 10px;
+    color: #ffffff;
+    background: lightgray;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    padding: 2px;
+}
+li#payment:after{
+    left:-53px !important;
+}
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    position: absolute;
+    left: 48px;
+    top: 10px;
+    z-index: -1
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: black;
+}
+
+.radio-group {
+    position: relative;
+    margin-bottom: 25px
+}
+
+.radio {
+    display: inline-block;
+    width: 204;
+    height: 104;
+    border-radius: 0;
+    background: lightblue;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 8px 2px
+}
+
+.radio:hover {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3)
+}
+
+.radio.selected {
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1)
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover
+}
